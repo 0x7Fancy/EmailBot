@@ -26,7 +26,7 @@ import rule
 import utils
 from utils import logger
 
-VERSION = "EmailBot v0.1.1 (build 20220112)"
+VERSION = "EmailBot v0.2 (build 20220113)"
 
 #**********************************************************************
 # @Class: EmailBot
