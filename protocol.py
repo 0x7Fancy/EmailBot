@@ -102,7 +102,7 @@ class SMTP:
             return False
 
         try:
-            smtp.sendmail(email.sender, email.receiver, email.MIME.as_string())
+            smtp.sendmail(email.sender, email.receiver+email.cc, email.MIME.as_string())
             smtp.quit()
         except Exception as e:
             logger.error(e)

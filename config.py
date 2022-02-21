@@ -3,7 +3,7 @@
 
 """
 File: config.py
-Description: 
+Description: the EmailBot configure
 Author: 0x7F@knownsec404
 Time: 2022.01.10
 """

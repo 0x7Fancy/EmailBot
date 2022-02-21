@@ -266,6 +266,7 @@ def callback_debug_show(email, regx):
 1. 不支持附件接收
 2. 不支持 IMAP 协议
 3. email格式解析不完善，比如：plain 和 html 格式未区分
+4. 借助 mutt 来实现邮件自动化可能是更好的方案
 
 
 </br>
